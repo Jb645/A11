@@ -58,7 +58,7 @@ main h1{
 	position: relative;
 	font-family: "Arial Black", Arial, sans-serif;
 	font-size: 1.3em;
-	border: 1px solid #931420;
+	border: 3px double #931420;
 	border-radius: 7px;
 	background-color: white;
 	padding: 5px 0 10px 10%;
@@ -66,16 +66,6 @@ main h1{
 	box-shadow: 4px 4px 0 1px black;
 
 
-}
-.speakers:after{
-	content: '';
-	position: absolute;
-	border: 1px solid #931420;
-	border-radius: 10px;
-	top: -3px;
-	bottom: -3px;
-	right: -3px;
-	left: -3px;
 }
 main h2{
 	font-size: 130%;
